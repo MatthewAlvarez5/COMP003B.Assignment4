@@ -14,6 +14,9 @@ namespace COMP003B.Assignment4.Models
         [StringLength(100)]
         public string Phone { get; set; }
         [Required]
+        [StringLength(100)]
+        public string Address { get; set; }
+        [Required]
         public int Age { get; set; }
 
     }

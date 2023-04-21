@@ -2,7 +2,44 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container text-center text-warning text-decoration-underline">
+    <h2 class="display-4">Register For The Annual Banana Eating Contest Today!</h2>
+</div>
+<div class="container">
+
+    <div class="row row-cols-3">
+        <div class="col">
+            <div class="card text-end text-bg-dark border-warning mb-3" style="width: 400px; height: 630px;">
+                <img src="~/BEC1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">BANANA EATING UNDERWAY!</h5>
+                    <p class="card-text">Some contestants enjoying all that potassium.</p>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Home" asp-action="Contact">Register</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-end text-bg-dark border-warning mb-3" style="width: 400px; height: 630px;">
+                <img src="~/BEC2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Banana Eaters Ready</h5>
+                    <p class="card-text">These contestants are excited to start their contest.</p>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Home" asp-action="Contact">Register</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-end text-bg-dark border-warning mb-3" style="width: 400px; height: 630px;">
+                <img src="~/BEC4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Professionals at work...</h5>
+                    <p class="card-text">Clearly some pros on this stage. Competition is fierce.</p>
+                    <a class="btn btn-warning" asp-area="" asp-controller="Home" asp-action="Contact">Register</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
